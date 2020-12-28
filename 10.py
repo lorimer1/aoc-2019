@@ -4,7 +4,7 @@ import math
 YEAR = 2019
 DAY = 10
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 lines = list(puzzle_input.splitlines())
 asteroids = [(x, y) for y in range(len(lines)) for x in range(
     len(lines[0])) if lines[y][x] == '#']  # co-ordinates of all asteroids

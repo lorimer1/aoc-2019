@@ -2,7 +2,7 @@ import aoc_download
 YEAR = 2019
 DAY = 6
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 input_lines = list(puzzle_input.splitlines())
 
 # Parents orbit the children ... lowest level is COM

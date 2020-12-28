@@ -21,7 +21,7 @@ wire_a_turtle = make_turtle('white')
 wire_b_turtle = make_turtle('yellow')
 
 # two lines of text each with comma separated input
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 input_lines = list(puzzle_input.splitlines())
 moves_a = list(input_lines[0].split(','))
 moves_b = list(input_lines[1].split(','))

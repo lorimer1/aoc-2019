@@ -71,7 +71,7 @@ class TestIntCodeComputer(unittest.TestCase):
         self.assertRaises(IntCodeComputerEventHandlerException, self.computer.run)
 
     def test_intcode_modes(self): # using day 5 diagnostic test
-        self.computer = IntCodeComputer( aoc_download.read_input_file(year=2019, day=5) )
+        self.computer = IntCodeComputer( aoc_download.aoc.puzzle_input_file(year=2019, day=5) )
         self.computer.input_queue.append(1)
         while not (self.computer.output or self.computer.opcode == Opcode.HALT):
             self.computer.run()

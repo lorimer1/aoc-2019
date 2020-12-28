@@ -3,7 +3,7 @@ from math import gcd
 YEAR = 2019
 DAY = 12
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 
 # Read initial positions from file -> 
 # [['x_axis=5', 'y_axis=13', 'z_axis=-3'], ['x_axis=18', 'y_axis=-7', 'z_axis=-13'], ... ]

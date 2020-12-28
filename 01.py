@@ -4,7 +4,7 @@ YEAR = 2019
 DAY = 1
 
 # each mass is on a separate line of the puzzle_input file
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 masses = list(map(int, puzzle_input.splitlines()))
 
 

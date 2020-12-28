@@ -3,7 +3,7 @@ import aoc_download
 YEAR = 2019
 DAY = 4
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 code_lowest, code_highest = map(int, puzzle_input.split('-'))
 
 

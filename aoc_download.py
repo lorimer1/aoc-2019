@@ -5,7 +5,7 @@ import os
 # 'extra' can be used for test input files e.g. extra='_part1_test1', the filepath will be '..\input\d6_input_part1_test1.txt'
 
 
-def read_input_file(year, day, extra=""):
+def aoc.puzzle_input_file(year, day, extra=""):
 
     # path of this file
     path = os.path.dirname(__file__)

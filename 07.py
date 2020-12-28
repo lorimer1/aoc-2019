@@ -5,7 +5,7 @@ from amplifier import Amplifier
 YEAR = 2019
 DAY = 7
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 
 amp_a = Amplifier(puzzle_input)
 amp_b = Amplifier(puzzle_input)

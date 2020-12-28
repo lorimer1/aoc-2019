@@ -3,7 +3,7 @@ from intcode_computer import IntCodeComputer
 YEAR = 2019
 DAY = 2
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 computer = IntCodeComputer(puzzle_input)
 computer.memory[1] = 12
 computer.memory[2] = 2

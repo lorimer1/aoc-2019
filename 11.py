@@ -4,7 +4,7 @@ from custom_enums import Opcode
 YEAR = 2019
 DAY = 11
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 
 BLACK, WHITE = 0, 1
 X_INCREMENT_INDEX, Y_INCREMENT_INDEX = 0, 1

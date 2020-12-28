@@ -76,7 +76,7 @@ def fuel_made(recipes, ore_quantity):
         return fuel
 
 if __name__ == '__main__':
-    puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+    puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
     recipes = get_recipes(puzzle_input)
     print("Part 1:", ore_required(recipes))
     print("Part 2:", fuel_made(recipes, ore_quantity=1000000000000))

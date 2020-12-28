@@ -7,4 +7,4 @@ import aoc_download
 
 
 if __name__ == '__main__':
-    puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+    puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)

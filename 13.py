@@ -4,7 +4,7 @@ YEAR = 2019
 DAY = 13
 
 import aoc_download
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 
 from arcade_game import ArcadeGame
 

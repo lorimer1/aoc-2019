@@ -2,7 +2,7 @@ import aoc_download
 YEAR = 2019
 DAY = 8
 
-puzzle_input = aoc_download.read_input_file(YEAR, DAY)
+puzzle_input = aoc_download.aoc.puzzle_input_file(YEAR, DAY)
 
 width, height = 25, 6
 layer_size = width * height
